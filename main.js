@@ -9,6 +9,7 @@ function fibonacciSerie(num1, num2, limite) {
     while (fibonacciArray.length < limite) {
         //Fica repetindo ate chegar ao limite e tudo que temos e que pedimos que é o 3 parametro
         let next = a + b;
+        console.log(next);
         //Criamos uma variante pra ficar somando os 2 numeros propostos
         fibonacciArray.push(next);
         //o push vai ficar adicionando elementos no arrary
@@ -17,7 +18,7 @@ function fibonacciSerie(num1, num2, limite) {
         //eai o a vai virar b
         //e o b vai passar pro proximo que é a soma do a e b
     }
-    fibonacciArray.forEach(num => console.log(num));
+;
     //ficar mostrando cada numero que está tendo resultado, será os numeros citados
 
     return fibonacciArray;
